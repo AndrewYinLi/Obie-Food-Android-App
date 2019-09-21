@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Namee"
+        android:text="Name"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="107dp" />
 
