@@ -18,7 +18,15 @@
         </activity>
         <activity
             android:name=".RestaurantMenu"
-            android:label="Preferences" >
+            android:label="Obie Food" >
+            <intent-filter>
+                <action android:name="com.example.obiefood.AppPreferenceActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConfirmDelivery"
+            android:label="Obie Food" >
             <intent-filter>
                 <action android:name="com.example.obiefood.AppPreferenceActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
