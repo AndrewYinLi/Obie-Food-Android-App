@@ -63,6 +63,9 @@ public class RestaurantMenu extends AppCompatActivity {
                 // Start NewActivity.class
                 Intent myIntent = new Intent(RestaurantMenu.this,
                         ConfirmDelivery.class);
+
+                myIntent.putExtra("total",total);
+
                 startActivity(myIntent);
             }
         });
