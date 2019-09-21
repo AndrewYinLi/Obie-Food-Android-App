@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.073" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/kimsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/kim_s_grocery_and_carryout"
@@ -46,7 +46,7 @@
         android:layout_width="348dp"
         android:layout_height="216dp"
         android:contentDescription="@string/kimz"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/kimsButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/kimsButton"
         app:srcCompat="@drawable/brunchz" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
