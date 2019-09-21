@@ -4,4 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="223dp"
+        android:layout_height="26dp"
+        android:text="@string/kim_s_grocery_and_carryout"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Namee"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name on card"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email (bsmith@oberlin.edu)"
+        android:inputType="textEmailAddress"
+        android:text="Email "
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone (4401234567)"
+        android:inputType="phone"
+        android:text="Phone "
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Address (Dascomb 123)"
+        android:inputType="textPostalAddress"
+        android:text="Address"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="323dp"
+        android:layout_height="24dp"
+        android:text="Would you like to pay with cash or credit card?"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:text="Card Number"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Expiration Date"
+        android:inputType="date"
+        android:text="Expiration Date"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:hint="CVV"
+        android:inputType="number"
+        android:text="CVV"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Order"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
