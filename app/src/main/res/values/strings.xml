@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Obie Food</string>
+    <string name="r_e_s_t_a_u_r_a_n_t_s">R E S T A U R A N T S</string>
+    <string name="kim_s_grocery_and_carryout">Kim\'s Grocery and Carryout</string>
+    <string name="the_feve">The Feve</string>
+    <string name="todo">TODO</string>
+    <string name="todoi">TODO</string>
+    <string name="kimz">kimz</string>
+    <string name="brunchz">brunch</string>
 </resources>
