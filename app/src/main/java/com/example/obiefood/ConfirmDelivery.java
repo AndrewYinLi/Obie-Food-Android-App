@@ -17,17 +17,17 @@ public class ConfirmDelivery extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.confirm_delivery);
 
-        // Switch `Activity` to `RestaurantMenu`
-//        confirmButton = findViewById(R.id.);
-//        confirmButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view)
-//            {
-//                // Start NewActivity.class
-//                Intent myIntent = new Intent(ConfirmDelivery.this,
-//                        DeliveryMap.class);
-//                startActivity(myIntent);
-//            }
-//        });
+        // Switch `Activity` to `DeliveryMap`
+        confirmButton = findViewById(R.id.confirmButton);
+        confirmButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                // Start NewActivity.class
+                Intent myIntent = new Intent(ConfirmDelivery.this,
+                        DeliveryMap.class);
+                startActivity(myIntent);
+            }
+        });
     }
 }
